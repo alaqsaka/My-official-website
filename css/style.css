@@ -120,7 +120,7 @@ header{
 
 header .header-brand{
     font-family: halvetica;
-    font-size: 24px;
+    font-size: 34px;
     font-weight: 900;
     color: #111;
     text-transform: uppercase;
@@ -194,4 +194,66 @@ header .header-cases {
     text-shadow: 2px 2px 8px #111;
     font-style:italic;
     line-height: 29px;
+}
+
+.index-links div {
+    margin: 16px 16px 0px;
+    width: calc(100% - 32px);
+    height: 100px;
+    background-color: #e6e6e6;
+}
+
+.index-links div h3{
+    font-size: 28px;
+    color: #111;
+    text-align: center;
+    font-family: halvetica;
+    font-weight: 450;
+    line-height: 100px;
+    text-transform: uppercase;
+    
+}
+
+
+/* FOOTER */
+
+footer{
+    width: calc(100% - 80px);
+    padding: 40px 40px;
+    background-color: #111;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+footer ul{
+   width: fit-content;
+   float: left;
+   padding-left: 20px;
+   list-style: none;
+}
+
+footer ul li{
+    display: block;
+    list-style: none;
+}
+
+footer ul li a{
+    font-family: georgia;
+    font-size: 24px;
+    color: #fff;
+    line-height: 30px;
+}
+
+.footer-links-cases{
+    display: none;
+}
+
+.footer-sm{
+  width: 60px;
+  float: right;  
+}
+
+.footer-sm img{
+  width: 100%;
+  margin-bottom: 10px;
 }
